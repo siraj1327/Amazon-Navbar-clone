@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile-project</title>
+
+<style>
+
+
+.portfolio-container{
+
+display: flex;
+flex-direction: column;
+padding: 20px;
+
+}
+.profile-section{
+
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.bio{
+    margin-left: 20px;
+}
+.bio h2{
+
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.siklls-section {
+
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin-bottom: 10px;
+}
+.sikll{
+
+    background-color: rgb(40, 211, 131);
+    color: rgb(6, 10, 0);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.project-section {
+display: flex;
+flex-wrap: wrap;
+gap: 20px;
+}
+.project-card{
+
+ flex-basis: 30px;   
+background-color: rgb(69, 165, 66);
+padding: 100px;
+border-radius: 20px;
+box-shadow: 0 4px 8px rgb(247, 95, 8);
+
+}
+@media(max-width: 800px) 
+
+{
+    .project-section {
+
+
+        flex-direction: row;
+        
+
+    }
+.project-card {
+
+
+    flex-basis: 100px;
+}
+}
+
+   
+</style>
+</head>
+
+<body>
+  
+<div class="portfolio-container">
+
+<div class="profile-section">
+<img src="Iqan.jpg.jpg" alt="Allama Iqbal" width="300px">
+<div class="bio"></div>
+<h2>Abdul Qayoom Shaikh </h2>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam odio suscipit excepturi atque iusto. Aut mollitia nulla fugiat inventore molestias.
+    Consequatur beatae molestiae eligendi sint delectus, harum tempora perspiciatis repellat!</p>
+</div>
+</div>
+<div  class="siklls-section">
+    <div class="sikll">HTML</div>
+    <div class="sikll">CSS</div>
+    <div class="sikll">JAVASCRIPT</div>
+    <div class="sikll">C++</div>
+    <div class="sikll">C#</div>
+</div>
+<div class=" project-section">
+    <div class="project-card" >
+
+            <h3>project 1</h3>
+            <p>A responsive e-commers website</p>
+            
+
+    
+</div>
+<div class="project-card">
+
+    <h3>project 2</h3>
+    <p> A social media app boilt with react.</p>
+
+</div>
+<div class="project-card">
+
+    <h3>project 3</h3>
+    <p> PAkistan Zindabad islam Zindabad</p>
+
+</div>
+
+
+</body>
+</html>
